@@ -43,7 +43,7 @@ def plot_decision_boundary(w1, w2, b, operation_name):
                          np.linspace(y_min, y_max, 200))
     
     # Calcular la salida del perceptrón para cada punto
-    Z = np.array([[perceptron(x, y, w1, w2, b) for x, y_val in zip(x_row, y_row)] 
+    Z = np.array([[perceptron(x, y_val, w1, w2, b) for x, y_val in zip(x_row, y_row)] 
                   for x_row, y_row in zip(xx, yy)])
     
     # Visualizar las regiones

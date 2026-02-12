@@ -126,7 +126,7 @@ def main():
         st.warning("""
         **Operación XOR**: Devuelve 1 cuando las entradas son **diferentes**.
         Esta operación **NO es linealmente separable** y no puede ser resuelta por un perceptrón simple.
-        Se necesita una red neuronal multicapa (al menos 2 capas ocultas).
+        Se necesita una red neuronal multicapa (al menos 1 capa oculta).
         """)
     
     # Crear dos columnas
